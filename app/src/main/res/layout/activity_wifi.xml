@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layout_frame"
+        android:layout_width="match_parent"
+        android:layout_height="550dp" />
+
+    <Button
+        android:id="@+id/btn_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_refresh"
+        android:layout_below="@id/layout_frame"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        />
+
+
+    <Button
+        android:id="@+id/btn_send_wifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send_wifi"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_below="@id/btn_refresh"
+        />
+
+</RelativeLayout>

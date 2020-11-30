@@ -2,4 +2,40 @@
     <string name="app_name">Hello Fasilkom</string>
     <string name="action_settings">Set</string>
     <string name="hello_fasilkom">Hello Fasilkom</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+
+    <string name="title_wifi">Wi-Fi Scanner</string>
+
+    <string name="action_refresh">Refresh</string>
+
+    <string name="action_scan_wifi">Wi-Fi Scan</string>
+
+    <string name="prompt_loading">Loading&#8230;</string>
+    <string name="prompt_settings_not_implemented">Settings not implemented</string>
+    <string name="prompt_enabling_wifi">Enabling Wi-Fi&#8230;</string>
+
+    <string name="welcome_title">Welcome to the WiFi Scanner!</string>
+    <string name="welcome_message">This application is intended to scan nearby Wi-Fi base stations and give you basic information about each one.</string>
+
+    <string name="station_frequency">%1$s MHz</string>
+    <string name="station_level">%1$s dBm</string>
+    <string name="send_wifi">Send WIFI to Service</string>
+    <string name="send_to_pipedream">Sending list of wifis to Pipedream!</string>
 </resources>
