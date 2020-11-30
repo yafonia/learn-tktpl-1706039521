@@ -48,7 +48,6 @@ open class WifiActivity : AppCompatActivity() {
         setTitle(R.string.title_wifi)
         transitionToList()
 
-        //Wifiを許可
         if (!wifiManager.isWifiEnabled) {
             Toast.makeText(this, R.string.prompt_enabling_wifi, Toast.LENGTH_SHORT).show()
             wifiManager.isWifiEnabled = true
