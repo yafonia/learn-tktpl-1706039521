@@ -37,4 +37,5 @@
     <string name="station_frequency">%1$s MHz</string>
     <string name="station_level">%1$s dBm</string>
     <string name="send_wifi">Send WIFI to Service</string>
+    <string name="send_to_pipedream">Sending list of wifis to Pipedream!</string>
 </resources>

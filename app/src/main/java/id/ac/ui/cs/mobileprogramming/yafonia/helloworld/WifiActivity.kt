@@ -13,9 +13,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import android.app.Fragment
 import android.util.Log
-import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_wifi.*
-import com.github.kittinunf.fuel.core.Response
 import com.github.kittinunf.fuel.gson.jsonBody
 import com.github.kittinunf.fuel.httpPost
 import org.json.JSONObject
@@ -163,5 +161,6 @@ open class WifiActivity : AppCompatActivity() {
                 }
             }
         url.join()
+        Toast.makeText(applicationContext,R.string.send_to_pipedream,Toast.LENGTH_SHORT).show()
     }
 }
