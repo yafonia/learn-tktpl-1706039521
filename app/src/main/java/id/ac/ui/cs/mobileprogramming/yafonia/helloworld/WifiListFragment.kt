@@ -70,7 +70,6 @@ open class WifiListFragment() : ListFragment() {
 
     class WifiListAdapter(context: Context) : ArrayAdapter<WifiStation>(context, 0) {
         private val inflater: LayoutInflater = LayoutInflater.from(context)
-        val listOfWifis = mutableListOf<String>()
 
         @Suppress("IfThenToElvis")
         override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
@@ -85,7 +84,6 @@ open class WifiListFragment() : ListFragment() {
             view.txt_bssid.text = item?.bssid
             view.txt_frequency.text = context.getString(R.string.station_frequency, item?.frequency.toString())
             view.txt_level.text = context.getString(R.string.station_level, item?.level.toString())
-            listOfWifis.add(item?.ssid.toString())
             return view
         }
 
